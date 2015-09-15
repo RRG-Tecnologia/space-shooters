@@ -8,10 +8,10 @@ public class menu : MonoBehaviour {
 	
 	}
 	
-	// Update is called once per frame
+	// CHAMA A FASE 01 AO CLICAR NO MENU
 	void Update () {
 	if (Input.GetButtonDown ("Fire1")) {
-			Application.LoadLevel("Done_Main");
+			Application.LoadLevel("fase01");
 				}
 	}
 }

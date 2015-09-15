@@ -21,6 +21,7 @@ public class Done_PlayerController : MonoBehaviour
 	
 	void Update ()
 	{
+		// PLAYER ATIRA
 		if (Input.GetButton("Fire1") && Time.time > nextFire) 
 		{
 			nextFire = Time.time + fireRate;
