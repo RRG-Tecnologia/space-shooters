@@ -11,7 +11,7 @@ public class menu : MonoBehaviour {
 	// CHAMA A FASE 01 AO CLICAR NO MENU
 	void Update () {
 	if (Input.GetButtonDown ("Fire1")) {
-			Application.LoadLevel("fase01");
+			Application.LoadLevel("cena_principal");
 				}
 	}
 }
